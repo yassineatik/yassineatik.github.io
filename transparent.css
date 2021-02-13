@@ -1,0 +1,108 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background :url('bg.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vh;
+	height: 100%;
+}
+
+.login-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px Solid #4caf50;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input {
+	border:none;
+	outline: none;
+	background:none;
+	color: white;
+	font-size: 15px;
+	width: 60%;
+	float: left;
+	margin: 3px;
+}
+.btn{
+	width: 100%;
+	padding: 11px 0px;
+	margin-top: 10px;
+	color: white;
+	border-bottom: 1px solid #4caf50;
+	cursor:pointer;
+	background:none;
+	border-left: 1px solid #4caf50;
+	border-right: 1px solid #4caf50;
+	border-top: 1px solid #4caf50;
+}
+
+.check-btn input{
+	margin: 10px 10px;
+}
+.check-btn label{
+	opacity: 50%;
+}
+.btn:hover{
+	background:#4caf50;
+	transition: 0.5s;
+	border-radius: 6px;
+	font-size: 1.1em;
+}
+h5 {
+	font-size: 1.1em;
+	opacity: 100%;
+	width: 100%;
+	color:#95ABB5;
+}
+.choice a {
+	text-decoration: none;
+	color: #4caf50;
+	opacity: 100%;
+}
+.choice {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	 
+}
+a:hover{
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background :url('bg.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 1024px;
+}
+}
